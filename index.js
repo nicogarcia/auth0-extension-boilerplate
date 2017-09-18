@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
     '    </script>',
     '  </head>',
     '  <body>',
-    '    <p><strong>Token</strong></p>',
+    '    <p><strong>asasdfasdf</strong></p>',
     '    <textarea rows="10" cols="100" id="token"></textarea>',
     '    <script type="text/javascript">',
     '       var token = sessionStorage.getItem("token");',
