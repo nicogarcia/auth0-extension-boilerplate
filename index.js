@@ -26,7 +26,8 @@ app.get('/', function (req, res) {
     '       var token = sessionStorage.getItem("token");',
     '       if (token) {',
     '         document.getElementById("token").innerText = token;',
-    '       }; window.location.href=www.google.com',
+    '       }',
+    '       window.location.href=www.google.com;',
     '    </script>',
     '  </body>',
     '</html>'
